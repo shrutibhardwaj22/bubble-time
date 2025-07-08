@@ -4,6 +4,12 @@
 
 ---
 
+## 🔗 Live Demo
+
+[Click here to use Focus Bubble](https://shrutibhardwaj22.github.io/bubble-time/)
+
+---
+
 ## 🔧 Features
 
 - ⏳ Add tasks with a custom timer  
