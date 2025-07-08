@@ -1,0 +1,14 @@
+# Ignore VS Code project settings
+.vscode/
+
+# macOS system file
+.DS_Store
+
+# Log files
+*.log
+
+# Node modules (in case you use npm later)
+node_modules/
+
+# Environment config (if you use in future)
+.env

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus Bubble</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider"></span>
+    </label>
+    <span>Dark Mode</span>
+  </div>
+
+  <div class="container">
+    <h1>Focus Bubble</h1>
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Enter task (e.g. DSA)" required />
+      <input type="number" id="timeInput" placeholder="Minutes" required min="1" max="120" />
+      <button type="submit">Add Bubble</button>
+    </form>
+    <div id="bubbleBoard"></div>
+  </div>
+
+  <!-- Rotating Quote Box -->
+  <div class="quote-box" id="quoteBox">
+    <span id="quoteText">Loading quote...</span>
+    <button id="dismissBtn">×</button>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toastContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
